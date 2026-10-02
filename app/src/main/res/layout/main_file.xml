@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tb1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="15"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="Time Needed to Get Ready"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/readyTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:autofillHints="35"
+        android:focusedByDefault="true"
+        android:text="40"
+        />
+
+    <TextView
+        android:id="@+id/tb2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="15"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingTop="30dp"
+        android:text="Enter Time to Leave"
+        />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="05:25"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="time"
+        android:paddingBottom="30dp"
+        android:clickable="true"
+        android:focusable="false"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Time"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:clickable="false"
+        android:focusable="false"
+        />
+
+</LinearLayout>
